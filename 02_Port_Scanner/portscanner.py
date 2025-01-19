@@ -24,8 +24,7 @@ def scan_port(ipadress, port):
         sock.connect((ipaddress, port))
         print('[+] Port ' + str(port) + ' is Open')
     except:
-        # print('[-] Port ' + str(port) + ' is Closed')
-        pass
+        print('[-] Port ' + str(port) + ' is Closed')
 
 
 targets = input('[+] Enter Target/s to Scan (split multiple targets with ,): ')
