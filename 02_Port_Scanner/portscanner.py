@@ -17,7 +17,7 @@ def check_ip(ip):
         return socket.gethostbyname(ip)
 
 
-def scan_port(ipadress, port):
+def scan_port(ipaddress, port):
     try:
         sock = socket.socket()
         sock.settimeout(0.5)
